@@ -27,29 +27,56 @@ export interface WorkExperience {
 
 export const workExperience: WorkExperience[] = [
     {
-        id: "jaguar-land-rover",
+        id: "jlr-tech-lead",
         type: "work",
-        year: "May 2022 – Present",
+        year: "May 2024 – Present",
+        title: "Technical Lead",
+        company: "Jaguar Land Rover",
+        role: "Technical Lead",
+        shortDescription: "Technical Lead responsible for platform architecture, technical strategy, and end-to-end delivery.",
+        overview: "Technical Lead responsible for platform architecture, technical strategy, and end-to-end delivery. Owns requirements definition, solution design, and Agile execution while mentoring engineers and aligning technical initiatives with business goals.",
+        responsibilities: [
+            "Lead end-to-end solution architecture, producing high- and low-level designs for scalable, secure platform services.",
+            "Translate business needs into structured technical requirements, epics, and user stories.",
+            "Define and maintain architectural standards, ensuring consistency across platform services.",
+            "Act as technical sign-off authority for major design and platform decisions.",
+            "Drive backlog prioritization and roadmap planning in collaboration with stakeholders and product teams.",
+            "Lead Agile ceremonies and foster continuous improvement practices.",
+            "Mentor engineers through 1:1s, design reviews, and technical coaching sessions.",
+            "Establish best practices across CI/CD, testing, and cloud-native development."
+        ],
+        achievements: [
+            "Architected and delivered multiple platform services aligned to long-term technical strategy.",
+            "Eliminated a critical testing bottleneck by coordinating rapid patch releases, unlocking 50+ hours of additional automated testing across customer assets.",
+            "Improved system reliability and deployment frequency through CI/CD optimization and test coverage improvements.",
+            "Strengthened cross-team alignment by formalizing requirement capture and architecture review processes.",
+            "Recognized as a key contributor to platform technical strategy and governance."
+        ],
+        skills: ["Solution Architecture", "Agile Leadership", "Technical Strategy", "Mentoring", "CI/CD", "AWS", "Agile Methodologies", "Scrum"],
+    },
+    {
+        id: "jlr-platform-engineer",
+        type: "work",
+        year: "May 2022 – May 2024",
         title: "Platform Engineer",
         company: "Jaguar Land Rover",
         role: "Platform Engineer",
-        shortDescription: "Driving the development of scalable, secure software solutions with a strong focus on Python, CI/CD, and Agile delivery.",
-        overview: "Driving the development of scalable, secure software solutions with a strong focus on Python, CI/CD, and Agile delivery. Actively transitioning into a Product Owner role, combining deep technical expertise with strategic product thinking to deliver impactful, customer centric solutions.",
+        shortDescription: "Platform Engineer focused on developing scalable Python applications, CI/CD pipelines, and AWS cloud solutions.",
+        overview: "Platform Engineer focused on developing scalable Python applications, CI/CD pipelines, and AWS-integrated cloud solutions within an Agile environment.",
         responsibilities: [
-            "Architected and delivered robust Python based applications, CI/CD pipelines, and cloud integrated solutions using AWS.",
-            "Defined and prioritized user stories, epics, and roadmaps in collaboration with stakeholders, aligning technical delivery with business goals.",
-            "Led Agile ceremonies including sprint planning, backlog refinement, and retrospectives, fostering a culture of continuous improvement.",
-            "Mentored junior engineers through weekly 1:1s, technical drop-in sessions, and personalized training plans.",
-            "Created and maintained onboarding documentation, internal training materials, and knowledge sharing platforms to reduce silos and accelerate team growth.",
-            "Acted as a technical sign off authority for platform wide architectural decisions."
+            "Designed and implemented Python-based applications and backend services.",
+            "Developed and maintained REST APIs and system integrations.",
+            "Built and optimized CI/CD pipelines using GitLab.",
+            "Implemented infrastructure as code using Terraform.",
+            "Developed automated testing frameworks to improve reliability and coverage.",
+            "Collaborated with cross-functional teams to refine requirements and deliver incremental software releases."
         ],
         achievements: [
-            "Unblocked a critical testing bottleneck by delivering daily patch fixes, enabling 50+ hours of additional automated testing our customers asset base improving platform reliability.",
-            "Spearheaded Agile adoption across the team, enhancing collaboration and delivery velocity.",
-            "Delivered multiple high-impact software releases on time by optimizing CI/CD pipelines and improving test coverage.",
-            "Recognized as a core contributor to platform architecture and technical strategy."
+            "Delivered secure, cloud-integrated solutions aligned with enterprise standards.",
+            "Improved release efficiency and platform stability through CI/CD enhancements.",
+            "Increased automation coverage, reducing regression defects."
         ],
-        skills: ["Linux", "Agile Methodologies", "NumPy", "API", "Python", "Terraform", "REST APIs", "Postman", "Gitlab", "Testing", "CANoe", "Test Automation", "Pandas", "AWS", "Scrum", "FastAPI", "BDD"],
+        skills: ["Python", "AWS", "Gitlab", "Terraform", "REST APIs", "Test Automation", "Agile Methodologies", "Linux", "FastAPI"],
     },
     {
         id: "university-of-limerick-masters",

@@ -23,11 +23,12 @@ export default function Timeline() {
                         <div className="w-full md:w-1/2 p-6">
                             <Link href={`/work/${item.id}`} className="block group">
                                 <div className={`bg-zinc-900 p-6 rounded-2xl shadow-lg border transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-zinc-900/50 ${item.type === 'education'
-                                        ? 'border-blue-900/30 group-hover:border-blue-500'
-                                        : 'border-zinc-800 group-hover:border-zinc-600'
+                                    ? 'border-blue-900/30 group-hover:border-blue-500'
+                                    : 'border-zinc-800 group-hover:border-zinc-600'
                                     }`}>
                                     <h3 className={`text-xl font-semibold transition-colors ${item.type === 'education' ? 'text-blue-200 group-hover:text-blue-100' : 'group-hover:text-white'
                                         }`}>{item.title}</h3>
+                                    <p className="text-sm text-zinc-500 font-medium">{item.company}</p>
                                     <p className="text-gray-400 mt-2 line-clamp-3">{item.shortDescription}</p>
                                     <div className="mt-4 flex flex-wrap gap-2">
                                         {item.skills?.slice(0, 3).map(skill => (
