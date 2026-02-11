@@ -16,7 +16,7 @@ export default function Contact() {
             </motion.h2>
 
             <p className="mt-4 text-gray-400">
-                your.email@example.com
+                aaronobrien1212@gmail.com
             </p>
         </section>
     );
