@@ -11,7 +11,7 @@ export default function Hero() {
                 transition={{ duration: 0.8 }}
                 className="text-5xl md:text-7xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500"
             >
-                Aaron O'Brien
+                Aaron O Brien
             </motion.h1>
 
             <motion.div
@@ -21,8 +21,7 @@ export default function Hero() {
                 className="mt-6 flex flex-col items-center gap-4"
             >
                 <p className="text-lg text-gray-400 max-w-xl">
-                    Software Developer crafting clean, performant and interactive
-                    experiences.
+                    Technical Lead combining deep engineering expertise with product thinking to deliver scalable, customer-focused platforms.
                 </p>
                 <a
                     href="mailto:aaronobrien1212@gmail.com"
