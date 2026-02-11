@@ -274,18 +274,19 @@ export const workExperience: WorkExperience[] = [
         title: "Test Development Engineer",
         company: "Analog Devices",
         role: "Test Development Engineer",
-        shortDescription: "Supported the deployment and maintenance of telephony infrastructure across customer sites.",
-        overview: "Supported the deployment and maintenance of telephony infrastructure across customer sites, focusing on Mitel systems. Delivered hands-on technical support, system configuration, and customer training to ensure reliable communication solutions and smooth adoption.",
+        shortDescription: "Test Development Engineer focused on automated semiconductor test solutions and data analysis.",
+        overview: "Contributed to the development and optimization of automated semiconductor test solutions, focusing on improving production efficiency, test accuracy, and data analysis. Worked closely with cross-functional engineering teams to enhance on-device testing processes and production test integration.",
         responsibilities: [
-            "Programmed and configured Mitel telephony systems tailored to customer requirements.",
-            "Installed and tested wiring infrastructure to support new telephone system deployments.",
-            "Diagnosed and resolved faults in telephony systems, ensuring consistent uptime and performance.",
-            "Delivered technical training and support to end-users, enabling confident use of newly installed systems."
+            "Explored and implemented automation strategies to streamline device testing workflows and reduce manual intervention.",
+            "Developed embedded C++ code for on-device testing, improving test execution efficiency and measurement accuracy.",
+            "Integrated automated testing solutions into existing production test flows to enhance consistency and repeatability.",
+            "Collaborated with hardware and software engineers to expand test coverage and refine testing methodologies.",
+            "Designed and developed Python scripts to analyze, format, and visualize production test data for improved decision-making."
         ],
         achievements: [
-            "Successfully completed installations and configurations across multiple customer sites with minimal downtime.",
-            "Improved customer satisfaction through effective training and post installation support.",
-            "Contributed to enhanced system reliability and reduced service calls through proactive fault resolution."
+            "Successfully automated critical testing processes, reducing manual effort and accelerating production timelines.",
+            "Improved the accuracy and reliability of on-device testing through embedded code enhancements.",
+            "Enhanced visibility of production performance by delivering structured data analysis and visualization tools."
         ],
         skills: ["NumPy", "Wireshark", "Python", "Manual Testing", "Postman API", "Testing", "Pandas", "Test Engineering", "Software Development"],
     },
