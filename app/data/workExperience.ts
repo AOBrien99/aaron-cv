@@ -33,8 +33,8 @@ export const workExperience: WorkExperience[] = [
         title: "Technical Lead",
         company: "Jaguar Land Rover",
         role: "Technical Lead",
-        shortDescription: "Technical Lead responsible for platform architecture, technical strategy, and end-to-end delivery.",
-        overview: "Technical Lead responsible for platform architecture, technical strategy, and end-to-end delivery. Owns requirements definition, solution design, and Agile execution while mentoring engineers and aligning technical initiatives with business goals.",
+        shortDescription: "Driving platform architecture and technical strategy to deliver scalable, high-performance customer solutions.",
+        overview: "Driving platform architecture, technical strategy, and end-to-end delivery. Owns requirements definition, solution design, and Agile execution while mentoring engineers and aligning technical initiatives with business goals.",
         responsibilities: [
             "Lead end-to-end solution architecture, producing high- and low-level designs for scalable, secure platform services.",
             "Translate business needs into structured technical requirements, epics, and user stories.",
@@ -50,7 +50,7 @@ export const workExperience: WorkExperience[] = [
             "Eliminated a critical testing bottleneck by coordinating rapid patch releases, unlocking 50+ hours of additional automated testing across customer assets.",
             "Improved system reliability and deployment frequency through CI/CD optimization and test coverage improvements.",
             "Strengthened cross-team alignment by formalizing requirement capture and architecture review processes.",
-            "Recognized as a key contributor to platform technical strategy and governance."
+            "Influenced platform technical strategy and governance."
         ],
         skills: ["Solution Architecture", "Agile Leadership", "Technical Strategy", "Mentoring", "CI/CD", "AWS", "Agile Methodologies", "Scrum"],
     },
@@ -61,10 +61,10 @@ export const workExperience: WorkExperience[] = [
         title: "Platform Engineer",
         company: "Jaguar Land Rover",
         role: "Platform Engineer",
-        shortDescription: "Platform Engineer focused on developing scalable Python applications, CI/CD pipelines, and AWS cloud solutions.",
-        overview: "Platform Engineer focused on developing scalable Python applications, CI/CD pipelines, and AWS-integrated cloud solutions within an Agile environment.",
+        shortDescription: "Engineering scalable Python applications, CI/CD pipelines, and AWS cloud solutions.",
+        overview: "Developing scalable Python applications, CI/CD pipelines, and AWS-integrated cloud solutions within an Agile environment.",
         responsibilities: [
-            "Designed and implemented Python-based applications and backend services.",
+            "Engineered modular Python-based applications and backend services for cloud-native environments.",
             "Developed and maintained REST APIs and system integrations.",
             "Built and optimized CI/CD pipelines using GitLab.",
             "Implemented infrastructure as code using Terraform.",
@@ -73,7 +73,7 @@ export const workExperience: WorkExperience[] = [
         ],
         achievements: [
             "Delivered secure, cloud-integrated solutions aligned with enterprise standards.",
-            "Improved release efficiency and platform stability through CI/CD enhancements.",
+            "Optimized release efficiency and platform stability through advanced CI/CD and Terraform infrastructure automation.",
             "Increased automation coverage, reducing regression defects."
         ],
         skills: ["Python", "AWS", "Gitlab", "Terraform", "REST APIs", "Test Automation", "Agile Methodologies", "Linux", "FastAPI"],
@@ -142,17 +142,17 @@ export const workExperience: WorkExperience[] = [
         title: "Electronic Engineer",
         company: "BD",
         role: "Electronic Engineer",
-        shortDescription: "Contributed to the design and development of high reliability electronic systems for medical devices.",
-        overview: "Contributed to the design and development of high reliability electronic systems for medical devices, focusing on analog, digital, and mixed-signal circuit design. Collaborated across engineering disciplines to ensure seamless integration, manufacturability, and performance of custom PCB solutions.",
+        shortDescription: "Engineered high-reliability electronic systems for medical devices.",
+        overview: "Engineered high-reliability electronic systems for medical devices, focusing on analog, digital, and mixed-signal circuit design. Collaborated across engineering disciplines to ensure seamless integration, manufacturability, and performance of custom PCB solutions.",
         responsibilities: [
-            "Designed and validated analog, digital, and mixed-signal circuits for next-generation medical devices.",
+            "Architected and validated analog, digital, and mixed-signal circuits for next-generation medical devices.",
             "Conducted rigorous testing and troubleshooting using lab equipment including oscilloscopes, signal generators, and multimeters.",
             "Integrated custom PCBs into new systems, ensuring optimal performance and reliability across product lines.",
             "Partnered with cross-functional teams to refine designs for manufacturability and system level integration.",
             "Applied engineering principles to improve product quality and reduce post-production issues."
         ],
         achievements: [
-            "Successfully integrated custom PCBs into new product platforms, accelerating time-to-market and enhancing device performance.",
+            "Led the physical integration of custom PCBs into new product platforms, accelerating time-to-market and enhancing device performance.",
             "Improved circuit reliability through design optimization, resulting in a measurable reduction in post-production failures.",
             "Strengthened cross team collaboration, contributing to smoother handoffs between design, testing, and manufacturing."
         ],
@@ -165,10 +165,10 @@ export const workExperience: WorkExperience[] = [
         title: "Teaching Assistant",
         company: "University of Limerick",
         role: "Teaching Assistant",
-        shortDescription: "Supported undergraduate lab sessions in computing and electronics.",
-        overview: "Supported undergraduate lab sessions in computing and electronics, helping students build foundational skills in Java programming and circuit design. Provided hands on guidance and technical troubleshooting to enhance learning outcomes and lab performance.",
+        shortDescription: "Led and mentored undergraduate lab sessions in computing and electronics.",
+        overview: "Led and mentored undergraduate lab sessions in computing and electronics, helping students build foundational skills in Java programming and circuit design. Provided hands-on guidance and technical troubleshooting to enhance learning outcomes and lab performance.",
         responsibilities: [
-            "Assisted in the delivery of Engineering Computing 1 (Java 1) and Electronics 1 lab sessions.",
+            "Mentored 50+ undergraduate students in Engineering Computing (Java) and Electronics labs, fostering deep technical understanding.",
             "Guided students through programming exercises and circuit design tasks, reinforcing core engineering concepts.",
             "Performed circuit fault-finding and debugging to support student projects and lab assessments.",
             "Facilitated a collaborative and supportive learning environment for first year engineering students."
@@ -184,7 +184,7 @@ export const workExperience: WorkExperience[] = [
         company: "AMCERT LIMITED",
         role: "Junior Telecommunications Engineer",
         shortDescription: "Programmed and configured Mitel telephony solutions for customer sites.",
-        overview: "Supported the deployment and maintenance of telephony infrastructure across customer sites, focusing on Mitel systems. Delivered hands-on technical support, system configuration, and customer training to ensure reliable communication solutions and smooth adoption.",
+        overview: "Spearheaded the deployment and maintenance of mission-critical telephony infrastructure, ensuring high reliability for large-scale enterprise Mitel systems. Delivered high-impact technical support, system configuration, and customer training.",
         responsibilities: [
             "Programmed and configured Mitel telephony solutions for customer sites.",
             "Installed and tested wiring infrastructure for telephone systems.",
@@ -205,7 +205,7 @@ export const workExperience: WorkExperience[] = [
         company: "Analog Devices",
         role: "Test Development Engineer",
         shortDescription: "Test Development Engineer focused on automated semiconductor test solutions and data analysis.",
-        overview: "Contributed to the development and optimization of automated semiconductor test solutions, focusing on improving production efficiency, test accuracy, and data analysis. Worked closely with cross-functional engineering teams to enhance on-device testing processes and production test integration.",
+        overview: "Optimized automated semiconductor test solutions, focusing on improved production efficiency, test accuracy, and data analysis. Worked closely with cross-functional engineering teams to enhance on-device testing processes and production test integration.",
         responsibilities: [
             "Explored and implemented automation strategies to streamline device testing workflows and reduce manual intervention.",
             "Developed embedded C++ code for on-device testing, improving test execution efficiency and measurement accuracy.",
@@ -227,15 +227,18 @@ export const workExperience: WorkExperience[] = [
         title: "Junior Test Engineer",
         company: "Molex",
         role: "Junior Test Engineer",
-        shortDescription: "Supported the development and validation of test infrastructure for electronic components.",
-        overview: "Supported the development and validation of test infrastructure for electronic components, contributing to the design, debugging, and enhancement of Molex test benches. Played a key role in ensuring product quality and reliability through hands on testing and automation.",
+        shortDescription: "Developed and validated test infrastructure for electronic components.",
+        overview: "Developed and validated test infrastructure for electronic components, contributing to the design, debugging, and enhancement of Molex test benches. Played a key role in ensuring product quality and reliability through hands-on testing and automation.",
         responsibilities: [
             "Designed and developed custom test benches to validate Molex devices and components.",
             "Implemented new test procedures and integrated them into existing test systems.",
             "Diagnosed and debugged device issues, contributing to faster fault resolution and improved test coverage.",
             "Collaborated with engineering teams to ensure test solutions aligned with product specifications and quality standards."
         ],
-        achievements: [],
+        achievements: [
+            "Designed and deployed custom test benches that accelerated internal fault resolution cycles.",
+            "Improved test coverage for mission-critical electronic components through automated testing enhancements."
+        ],
         skills: ["Computer Engineering", "Manual Handling", "SAP", "Wireshark", "Manual Testing", "Postman API", "Testing", "Visual Basic", "Test Engineering"],
     },
 ];
